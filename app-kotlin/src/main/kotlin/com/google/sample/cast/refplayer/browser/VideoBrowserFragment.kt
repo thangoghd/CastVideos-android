@@ -87,7 +87,7 @@ class VideoBrowserFragment : Fragment(), VideoListAdapter.ItemClickListener,
     }
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<MediaInfo>?> {
-        return VideoItemLoader(activity, CATALOG_URL)
+        return com.google.sample.cast.refplayer.data.ChannelItemLoader(activity, CATALOG_URL)
     }
 
     override fun onLoadFinished(loader: Loader<List<MediaInfo>?>, data: List<MediaInfo>?) {
@@ -136,6 +136,6 @@ class VideoBrowserFragment : Fragment(), VideoListAdapter.ItemClickListener,
     companion object {
         private const val TAG = "VideoBrowserFragment"
         private const val CATALOG_URL =
-            "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/f.json"
+            "file:///android_asset/channel.json"
     }
 }
