@@ -215,12 +215,16 @@ class ChannelProvider {
                     header.key?.let { key ->
                         header.value?.let { value ->
                             headersJson.put(key, value)
+                            Log.d(TAG, "Adding header: $key = $value")
                         }
                     }
                 }
                 customData.put("headers", headersJson)
                 customData.put("channelId", channel.id)
                 mediaInfoBuilder.setCustomData(customData)
+                Log.d(TAG, "Created MediaInfo with custom data: $customData")
+            } else {
+                Log.d(TAG, "No headers found for streamLink: ${streamLink.url}")
             }
             
             return mediaInfoBuilder.build()

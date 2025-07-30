@@ -26,10 +26,15 @@ import android.view.View
 import android.widget.VideoView
 import com.google.sample.cast.refplayer.R
 import com.google.sample.cast.refplayer.utils.Utils
+import com.google.sample.cast.refplayer.utils.MediaPlayerHelper
 
 /** A player to host the video local playback.  */
 class VideoMediaPlayer(private val activity: Activity) :
   LocalMediaPlayer(activity, "video") {
+  
+  companion object {
+    private const val TAG = "VideoMediaPlayer"
+  }
   /** Callback to provide state update from [VideoMediaPlayer].  */
   interface Callback {
     /** Called when the media is loaded.  */
@@ -50,13 +55,40 @@ class VideoMediaPlayer(private val activity: Activity) :
 
   override fun onPlay(mediaId: String?, bundle: Bundle?): Boolean {
     val mediaInfo = mediaInfo
+    
+    // Log MediaInfo details for debugging
+    Log.d(TAG, "Playing media: ${mediaInfo?.contentId}")
+    Log.d(TAG, "Media entity: ${mediaInfo?.entity}")
+    
+    // Check for custom data (headers)
+    val customData = mediaInfo?.customData
+    if (customData != null) {
+      Log.d(TAG, "Custom data found: $customData")
+      // Try to extract headers
+      try {
+        val headers = customData.optJSONObject("headers")
+        if (headers != null) {
+          Log.d(TAG, "Headers found in custom data: $headers")
+          // TODO: Need to use ExoPlayer or custom MediaPlayer to support headers
+          // VideoView doesn't support custom headers
+        }
+      } catch (e: Exception) {
+        Log.w(TAG, "Error parsing custom data: ${e.message}")
+      }
+    } else {
+      Log.d(TAG, "No custom data found in MediaInfo")
+    }
+    
     if (TextUtils.isEmpty(mediaInfo!!.contentId) && !TextUtils.isEmpty(
         mediaInfo.entity
       )
     ) {
+      Log.d(TAG, "Using entity path: ${mediaInfo.entity}")
       videoView!!.setVideoPath(mediaInfo.entity)
     } else {
-      videoView!!.setVideoURI(Uri.parse(mediaInfo.contentId))
+      Log.d(TAG, "Using content URI with headers support: ${mediaInfo.contentId}")
+      // Use MediaPlayerHelper to handle headers
+      MediaPlayerHelper.setVideoURIWithHeaders(videoView!!, mediaInfo)
     }
     return true
   }
@@ -121,9 +153,5 @@ class VideoMediaPlayer(private val activity: Activity) :
       stop()
       true
     }
-  }
-
-  companion object {
-    private const val TAG = "VideoMediaPlayer"
   }
 }

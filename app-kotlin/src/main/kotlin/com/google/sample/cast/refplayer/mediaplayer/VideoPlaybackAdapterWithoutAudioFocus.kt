@@ -27,6 +27,7 @@ import com.google.android.gms.cast.MediaInfo
 import com.google.android.gms.cast.framework.CastSession
 import com.google.sample.cast.refplayer.R
 import com.google.sample.cast.refplayer.utils.Utils
+import com.google.sample.cast.refplayer.utils.MediaPlayerHelper
 
 /** A class to handle the video playback that can not play in the background.  */
 class VideoPlaybackAdapterWithoutAudioFocus(
@@ -156,7 +157,8 @@ class VideoPlaybackAdapterWithoutAudioFocus(
     if (TextUtils.isEmpty(mediaInfo.contentId) && !TextUtils.isEmpty(mediaInfo.entity)) {
       videoView!!.setVideoPath(mediaInfo.entity)
     } else {
-      videoView!!.setVideoURI(Uri.parse(mediaInfo.contentId))
+      // Use MediaPlayerHelper to handle headers
+      MediaPlayerHelper.setVideoURIWithHeaders(videoView!!, mediaInfo)
     }
   }
 

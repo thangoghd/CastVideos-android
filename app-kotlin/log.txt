@@ -1,0 +1,336 @@
+2025-07-30 11:12:02.820 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  ViewPostIme pointer 0
+2025-07-30 11:12:02.922 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  ViewPostIme pointer 1
+2025-07-30 11:12:02.923 27232-27232 AbsListView             com.google.sample.cast.refplayer     D  onTouchUp() mTouchMode : 0
+2025-07-30 11:12:03.013 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  Relayout returned: old=(452,628,967,880) new=(452,628,967,880) req=(515,252)0 dur=4 res=0x1 s={true 478180403280} ch=false fn=23
+2025-07-30 11:12:03.015 27232-27232 LocalPlayerActivity     com.google.sample.cast.refplayer     D  onPause() was called
+2025-07-30 11:12:03.037 27232-27232 DecorView               com.google.sample.cast.refplayer     I  [INFO] isPopOver=false, config=true
+2025-07-30 11:12:03.037 27232-27232 DecorView               com.google.sample.cast.refplayer     I  updateCaptionType >> DecorView@5710ac8[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+2025-07-30 11:12:03.037 27232-27232 DecorView               com.google.sample.cast.refplayer     D  setCaptionType = 0, this = DecorView@5710ac8[]
+2025-07-30 11:12:03.040 27232-27232 DecorView               com.google.sample.cast.refplayer     I  getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+2025-07-30 11:12:03.084 27232-27243 InputTransport          com.google.sample.cast.refplayer     D  Input channel destroyed: 'ClientS', fd=130
+2025-07-30 11:12:03.084 27232-27243 InputTransport          com.google.sample.cast.refplayer     D  Input channel destroyed: 'ClientS', fd=160
+2025-07-30 11:12:03.088 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:03.088 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:03.105 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: ignored. pkg=com.google.sample.cast.refplayer parent=null callers=com.android.internal.policy.DecorView.setVisibility:4288 android.app.ActivityThread.handleResumeActivity:5383 android.app.servertransaction.ResumeActivityItem.execute:54 android.app.servertransaction.ActivityTransactionItem.execute:45 android.app.servertransaction.TransactionExecutor.executeLifecycleState:176 
+2025-07-30 11:12:03.105 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@5710ac8[]
+2025-07-30 11:12:03.113 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  setView = com.android.internal.policy.DecorView@5710ac8 TM=true
+2025-07-30 11:12:03.113 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:03.113 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:03.114 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity
+2025-07-30 11:12:03.114 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlAlpha: for ITYPE_STATUS_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity
+2025-07-30 11:12:03.115 27232-27244 MediaPlayer-JNI         com.google.sample.cast.refplayer     V  native_finalize
+2025-07-30 11:12:03.115 27232-27244 MediaPlayer-JNI         com.google.sample.cast.refplayer     V  release
+2025-07-30 11:12:03.115 27232-27244 MediaPlayer-JNI         com.google.sample.cast.refplayer     V  native_finalize
+2025-07-30 11:12:03.115 27232-27244 MediaPlayer-JNI         com.google.sample.cast.refplayer     V  release
+2025-07-30 11:12:03.127 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=6 res=0x7 s={true 478180804400} ch=true fn=-1
+2025-07-30 11:12:03.128 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  eglCreateWindowSurface
+2025-07-30 11:12:03.130 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11442 android.view.ViewRootImpl.performTraversals:4198 android.view.ViewRootImpl.doTraversal:2924 
+2025-07-30 11:12:03.130 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+2025-07-30 11:12:03.130 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Creating frameCompleteCallback
+2025-07-30 11:12:03.133 27232-27287 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+2025-07-30 11:12:03.136 27232-27256 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+2025-07-30 11:12:03.142 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:5000 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938 
+2025-07-30 11:12:03.142 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] rdf()
+2025-07-30 11:12:03.142 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  reportDrawFinished (fn: -1) 
+2025-07-30 11:12:03.143 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 0 1
+2025-07-30 11:12:03.144 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 0 1
+2025-07-30 11:12:03.144 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 0 1
+2025-07-30 11:12:03.151 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity
+2025-07-30 11:12:03.152 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlAlpha: for ITYPE_STATUS_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity
+2025-07-30 11:12:03.172 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 1 1
+2025-07-30 11:12:03.174 27232-27232 InputMethodManager      com.google.sample.cast.refplayer     D  startInputInner - Id : 0
+2025-07-30 11:12:03.174 27232-27232 InputMethodManager      com.google.sample.cast.refplayer     I  startInputInner - mService.startInputOrWindowGainedFocus
+2025-07-30 11:12:03.188 27232-27232 DecorView               com.google.sample.cast.refplayer     I  notifyKeepScreenOnChanged: keepScreenOn=false
+2025-07-30 11:12:03.189 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:03.191 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  setRequestedVisible: visible=false, type=21, host=com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity, from=android.view.InsetsSourceConsumer.hide:253 android.view.InsetsController.collectSourceControls:1215 android.view.InsetsController.controlAnimationUnchecked:1077 android.view.InsetsController.applyAnimation:1456 android.view.InsetsController.applyAnimation:1437 android.view.InsetsController.hide:1006 android.view.InsetsController.hide:981 android.view.ViewRootImpl.controlInsetsForCompatibility:3147 android.view.ViewRootImpl.performTraversals:3637 android.view.ViewRootImpl.doTraversal:2924 
+2025-07-30 11:12:03.191 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  setRequestedVisible: visible=false, type=20, host=com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity, from=android.view.InsetsSourceConsumer.hide:253 android.view.InsetsController.collectSourceControls:1215 android.view.InsetsController.controlAnimationUnchecked:1077 android.view.InsetsController.applyAnimation:1456 android.view.InsetsController.applyAnimation:1437 android.view.InsetsController.hide:1006 android.view.InsetsController.hide:981 android.view.ViewRootImpl.controlInsetsForCompatibility:3147 android.view.ViewRootImpl.performTraversals:3637 android.view.ViewRootImpl.doTraversal:2924 
+2025-07-30 11:12:03.192 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  setRequestedVisible: visible=false, type=1, host=com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity, from=android.view.InsetsSourceConsumer.hide:253 android.view.InsetsSourceConsumer.hide:257 android.view.InsetsController.hideDirectly:1473 android.view.InsetsController.controlAnimationUnchecked:1139 android.view.InsetsController.applyAnimation:1456 android.view.InsetsController.applyAnimation:1437 android.view.InsetsController.hide:1006 android.view.InsetsController.hide:981 android.view.ViewRootImpl.controlInsetsForCompatibility:3147 android.view.ViewRootImpl.performTraversals:3637 
+2025-07-30 11:12:03.192 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  setRequestedVisible: visible=false, type=0, host=com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity, from=android.view.InsetsSourceConsumer.hide:253 android.view.InsetsSourceConsumer.hide:257 android.view.InsetsController.hideDirectly:1473 android.view.InsetsController.controlAnimationUnchecked:1139 android.view.InsetsController.applyAnimation:1456 android.view.InsetsController.applyAnimation:1437 android.view.InsetsController.hide:1006 android.view.InsetsController.hide:981 android.view.ViewRootImpl.controlInsetsForCompatibility:3147 android.view.ViewRootImpl.performTraversals:3637 
+2025-07-30 11:12:03.199 27232-27248 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  Resizing android.view.ViewRootImpl@6826dc4: frame=[0,90][1080,2280] reportDraw=true forceLayout=true backDropFrame=Rect(0, 0 - 1080, 2190)
+2025-07-30 11:12:03.204 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,0,1080,2280) new=(0,90,1080,2280) req=(1080,2280)0 dur=10 res=0x81 s={true 478180804400} ch=false fn=4
+2025-07-30 11:12:03.204 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Relayout called with blastSync
+2025-07-30 11:12:03.204 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11442 android.view.ViewRootImpl.performTraversals:3703 android.view.ViewRootImpl.doTraversal:2924 
+2025-07-30 11:12:03.205 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface() destroyed EGLSurface
+2025-07-30 11:12:03.205 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  destroyEglSurface
+2025-07-30 11:12:03.206 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Creating frameDrawingCallback nextDrawUseBlastSync=true reportNextDraw=true hasBlurUpdates=false
+2025-07-30 11:12:03.206 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Creating frameCompleteCallback
+2025-07-30 11:12:03.206 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  eglCreateWindowSurface
+2025-07-30 11:12:03.207 27232-27288 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Received frameDrawingCallback frameNum=4. Creating transactionCompleteCallback=true
+2025-07-30 11:12:03.211 27232-27256 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Received frameCompleteCallback  lastAcquiredFrameNum=4 lastAttemptedDrawFrameNum=4
+2025-07-30 11:12:03.212 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:5000 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938 
+2025-07-30 11:12:03.212 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  [DP] rdf()
+2025-07-30 11:12:03.212 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  reportDrawFinished (fn: 4) 
+2025-07-30 11:12:03.215 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     W  Can't perform draw while waiting for a transaction complete
+2025-07-30 11:12:03.216 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  handleResized, msg = 5 frames=ClientWindowFrames{frame=[0,90][1080,2280] display=[0,90][1080,2280] backdrop=[0,0][1080,2190]} forceNextWindowRelayout=true displayId=0 frameChanged=false backdropFrameChanged=true configChanged=false displayChanged=false mNextDrawUseBlastSync=true mergedConfiguration={mGlobalConfig={1.0 452mcc4mnc [vi_VN,en_GB] ldltr sw411dp w411dp h819dp 420dpi nrml long hdr widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 90 - 1080, 2241) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} s.31927 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n dc/d ?dcui ?dcaf enb/d themeSeq=0} mOverrideConfig={1.0 452mcc4mnc [vi_VN,en_GB] ldltr sw411dp w411dp h819dp 420dpi nrml long hdr widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 90 - 1080, 2241) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} s.1 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n dc/d ?dcui ?dcaf enb/d themeSeq=0}}
+2025-07-30 11:12:03.216 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  handleResized: set mNeedReportNextDraw = true
+2025-07-30 11:12:03.219 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     W  Can't perform draw while waiting for a transaction complete
+2025-07-30 11:12:03.224 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.224 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.224 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.224 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.226 27232-27248 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Received transactionCompleteCallback frameNum=4
+2025-07-30 11:12:03.230   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.230   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.231   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.231   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.232 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.233 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.233 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.233 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.234 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.235 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.235 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.235 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onPreloadStatusUpdated Queue was updated
+2025-07-30 11:12:03.235 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     D  Scheduling a traversal=true due to a previous skipped traversal.
+2025-07-30 11:12:03.240   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.240   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.240   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.241   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.241 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,90,1080,2280) new=(0,90,1080,2280) req=(1080,2190)0 dur=4 res=0x1 s={true 478180804400} ch=false fn=5
+2025-07-30 11:12:03.241 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface() destroyed EGLSurface
+2025-07-30 11:12:03.241 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  destroyEglSurface
+2025-07-30 11:12:03.241 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  eglCreateWindowSurface
+2025-07-30 11:12:03.251 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.251 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.251 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.251 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.259 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.259 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.259 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.259 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.261 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.261 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.262 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.262 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onPreloadStatusUpdated Queue was updated
+2025-07-30 11:12:03.321 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:03.321 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface() destroyed EGLSurface
+2025-07-30 11:12:03.321 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  destroyEglSurface
+2025-07-30 11:12:03.322 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  dispatchDetachedFromWindow
+2025-07-30 11:12:03.323 27232-27232 InputTransport          com.google.sample.cast.refplayer     D  Input channel destroyed: 'faacc2f', fd=166
+2025-07-30 11:12:03.350 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:252834000
+2025-07-30 11:12:03.350 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 252834000
+2025-07-30 11:12:03.350 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     V  Dynamite loader version >= 2, using loadModule2NoCrashUtils
+2025-07-30 11:12:03.352   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.352   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.352   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.352   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.353   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.353   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.353   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.353   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.357 27232-27232 CastDynamiteModuleImpl  com.google.sample.cast.refplayer     I  sk created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]].
+2025-07-30 11:12:03.362 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:252834000
+2025-07-30 11:12:03.362 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 252834000
+2025-07-30 11:12:03.362 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     V  Dynamite loader version >= 2, using loadModule2NoCrashUtils
+2025-07-30 11:12:03.363   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.363   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.363   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.363   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.365 27232-27232 CastDynamiteModuleImpl  com.google.sample.cast.refplayer     I  sk created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]].
+2025-07-30 11:12:03.368 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.369 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.369 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.369 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.375 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.375 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.375 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.375 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.379   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.379   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.380   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.380   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.380 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.381 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.381 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.381 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.383 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.383 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.384 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.384 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onPreloadStatusUpdated Queue was updated
+2025-07-30 11:12:03.386   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.386   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.388   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.389   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.393 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.394 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:03.394 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.394 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.400   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.401   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.401   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.401   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.401 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.402 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.402 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.402 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.413 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.414 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.414 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.414 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.414   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.414   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.416   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.416   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.430 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.430 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.430 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.430 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.435   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.435   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.436   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.436   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:03.440 27232-28265 LastModifiedParser      com.google.sample.cast.refplayer     W  Failed to parse last-modified header.
+2025-07-30 11:12:03.443 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.444 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.444 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.444 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.452 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.452 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.452 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.452 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.463 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.464 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.464 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.464 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.473 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.474 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.474 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.474 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.479 27232-28266 LastModifiedParser      com.google.sample.cast.refplayer     W  Failed to parse last-modified header.
+2025-07-30 11:12:03.489 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.490 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.490 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.490 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.498 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.498 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.498 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.498 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.511 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.511 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.512 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.512 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.519 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:252834000
+2025-07-30 11:12:03.519 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 252834000
+2025-07-30 11:12:03.519 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     V  Dynamite loader version >= 2, using loadModule2NoCrashUtils
+2025-07-30 11:12:03.526 27232-27232 CastDynamiteModuleImpl  com.google.sample.cast.refplayer     I  sk created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]].
+2025-07-30 11:12:03.532 27232-27232 MediaControlChannel     com.google.sample.cast.refplayer     W  QUEUE_ITEM_IDS message is missing a sequence number.
+2025-07-30 11:12:03.543 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.544 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.544 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.544 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:03.555 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:03.555 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=com.google.android.gms.cast.MediaQueueItem@fe8f2b59
+2025-07-30 11:12:03.555 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:03.555 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:03.576 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Considering local module com.google.android.gms.cast.framework.dynamite:0 and remote module com.google.android.gms.cast.framework.dynamite:252834000
+2025-07-30 11:12:03.576 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     I  Selected remote version of com.google.android.gms.cast.framework.dynamite, version >= 252834000
+2025-07-30 11:12:03.576 27232-27232 DynamiteModule          com.google.sample.cast.refplayer     V  Dynamite loader version >= 2, using loadModule2NoCrashUtils
+2025-07-30 11:12:03.579 27232-27232 CastDynamiteModuleImpl  com.google.sample.cast.refplayer     I  sk created by ClassLoader dalvik.system.DelegateLastClassLoader[DexPathList[[zip file "/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk"],nativeLibraryDirectories=[/data/app/~~1O9AreKnoBFvhkF4IVRmxQ==/com.google.android.gms-YB_vitqq6HP0TaOQcrrazA==/split_DynamiteModulesC_installtime.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64]]].
+2025-07-30 11:12:03.583 27232-27232 ViewRootIm...w:cece402] com.google.sample.cast.refplayer     I  handleAppVisibility mAppVisible=true visible=false
+2025-07-30 11:12:03.583 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  handleAppVisibility mAppVisible=true visible=false
+2025-07-30 11:12:03.584 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  stopped(true) old=false
+2025-07-30 11:12:03.584 27232-27256 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  257317990 wPL, frameNr = 0
+2025-07-30 11:12:03.584 27232-27256 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  aOrMT: uB = true t = android.view.SurfaceControl$Transaction@4d09ba7 fN = 0 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionLost:1785 android.graphics.RenderNode$CompositePositionUpdateListener.positionLost:326 
+2025-07-30 11:12:03.584 27232-27256 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  aOrMT: vR.mWNT, vR = ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:03.584 27232-27256 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  mWNT: t = android.view.SurfaceControl$Transaction@4d09ba7 fN = 0 android.view.SurfaceView.applyOrMergeTransaction:1628 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionLost:1785 
+2025-07-30 11:12:03.584 27232-27256 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  mWNT: merge t to BBQ
+2025-07-30 11:12:03.585 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  windowStopped(true) false android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824} of ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:03.585 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  pST: mTmpTransaction.apply, mTmpTransaction = android.view.SurfaceControl$Transaction@4445e4a
+2025-07-30 11:12:03.585 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  surfaceDestroyed callback.size 1 #1 android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824}
+2025-07-30 11:12:03.585 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  updateSurface: mVisible = false mSurface.isValid() = true
+2025-07-30 11:12:03.585 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  remove() android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824} Surface(name=SurfaceView - com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity@60fc934@0)/@0x6695854
+2025-07-30 11:12:03.586 27232-27232 LocalPlayerActivity     com.google.sample.cast.refplayer     D  onStop() was called
+2025-07-30 11:12:03.586 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:03.588 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:03.588 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:03.589 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  onWindowVisibilityChanged(8) false android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824} of ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:03.589 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:03.591 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:03.591 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface() destroyed EGLSurface
+2025-07-30 11:12:03.591 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  destroyEglSurface
+2025-07-30 11:12:03.595 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=3 res=0x5 s={false 0} ch=false fn=-1
+2025-07-30 11:12:03.596 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:03.597   957-4489  WindowManager           system_server                        E  win=Window{400b212 u0 com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.ActivityRecord.destroySurfaces:5873 com.android.server.wm.ActivityRecord.destroySurfaces:5854 com.android.server.wm.ActivityRecord.notifyAppStopped:5918 com.android.server.wm.ActivityRecord.activityStopped:6560 com.android.server.wm.ActivityClientController.activityStopped:254 android.app.IActivityClientController$Stub.onTransact:596 com.android.server.wm.ActivityClientController.onTransact:130 
+2025-07-30 11:12:03.605 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:05.611   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:05.612   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:05.616   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:05.616   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:06.537   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:06.538   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:06.540   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:06.540   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:06.565 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:06.566 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:06.566 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:06.566 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onStatusUpdated Queue was updated
+2025-07-30 11:12:06.576 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue 
+2025-07-30 11:12:06.576 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mCurrentItem=null
+2025-07-30 11:12:06.576 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  updateMediaQueue() with mUpcomingItem=null
+2025-07-30 11:12:06.576 27232-27232 QueueDataProvider       com.google.sample.cast.refplayer     D  onQueueStatusUpdated Queue was updated
+2025-07-30 11:12:06.577 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:06.607 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 0 1
+2025-07-30 11:12:06.609 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:06.610 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  handleAppVisibility mAppVisible=false visible=true
+2025-07-30 11:12:06.611 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  stopped(false) old=true
+2025-07-30 11:12:06.613 27232-27232 LocalPlayerActivity     com.google.sample.cast.refplayer     D  onStart() was called
+2025-07-30 11:12:06.615 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:06.615 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:06.615 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  stopped(false) old=false
+2025-07-30 11:12:06.616 27232-27232 LocalPlayerActivity     com.google.sample.cast.refplayer     D  onResume() was called
+2025-07-30 11:12:06.617 27232-27232 PlaybackAdapter         com.google.sample.cast.refplayer     D  [videoWoAudioFocus] update playback state to 0
+2025-07-30 11:12:06.617 27232-27232 LocalPlayerActivity     com.google.sample.cast.refplayer     D  updatePlaybackButton with isPlaybackLocal = false, isActive = false
+2025-07-30 11:12:06.619 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:06.619 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@b0194a5[LocalPlayerActivity]
+2025-07-30 11:12:06.620 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  onWindowVisibilityChanged(0) false android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824} of ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:06.620 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     D  updateSurface: surface is not valid
+2025-07-30 11:12:06.622 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:06.636 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=10 res=0x7 s={true 478181004960} ch=true fn=-1
+2025-07-30 11:12:06.638 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  windowStopped(false) true android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824} of ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:06.639 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  eglCreateWindowSurface
+2025-07-30 11:12:06.645 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  pST: sr = Rect(0, 237 - 1080, 844) sw = 1080 sh = 607
+2025-07-30 11:12:06.645 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  onSSPAndSRT: pl = 0 pt = 237 sx = 1.0 sy = 1.0
+2025-07-30 11:12:06.646 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  pST: mTmpTransaction.apply, mTmpTransaction = android.view.SurfaceControl$Transaction@4445e4a
+2025-07-30 11:12:06.646 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  updateSurface: mVisible = true mSurface.isValid() = true
+2025-07-30 11:12:06.646 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  updateSurface: mSurfaceCreated = false surfaceChanged = true visibleChanged = true
+2025-07-30 11:12:06.646 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  surfaceCreated 1 #1 android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824}
+2025-07-30 11:12:06.646 27232-27232 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  surfaceChanged (1080,607) 1 #1 android.widget.VideoView{60fc934 VFE...... .F...... 0,0-1080,607 #7f09016c app:id/videoView1 aid=1073741824}
+2025-07-30 11:12:06.646 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] dp(1) 1 android.view.SurfaceView.updateSurface:1375 android.view.SurfaceView.setWindowStopped:383 android.view.SurfaceView.surfaceCreated:2051 
+2025-07-30 11:12:06.646 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] pdf(0) 1 android.view.SurfaceView.notifyDrawFinished:599 android.view.SurfaceView.performDrawFinished:586 android.view.SurfaceView.$r8$lambda$st27mCkd9jfJkTrN_P3qIGKX6NY:0 
+2025-07-30 11:12:06.647 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] rdf()
+2025-07-30 11:12:06.647 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  reportDrawFinished (fn: -1) 
+2025-07-30 11:12:06.647 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11442 android.view.ViewRootImpl.performTraversals:4198 android.view.ViewRootImpl.doTraversal:2924 
+2025-07-30 11:12:06.647 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+2025-07-30 11:12:06.647 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  Creating frameCompleteCallback
+2025-07-30 11:12:06.649 27232-27287 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  uSP: rtp = Rect(0, 237 - 1080, 844) rtsw = 1080 rtsh = 607
+2025-07-30 11:12:06.649 27232-27287 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  onSSPAndSRT: pl = 0 pt = 237 sx = 1.0 sy = 1.0
+2025-07-30 11:12:06.649 27232-27287 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  aOrMT: uB = true t = android.view.SurfaceControl$Transaction@16adc69 fN = 1 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1728 android.graphics.RenderNode$CompositePositionUpdateListener.positionChanged:319 
+2025-07-30 11:12:06.649 27232-27287 SurfaceView@60fc934     com.google.sample.cast.refplayer     I  aOrMT: vR.mWNT, vR = ViewRootImpl@c2307af[LocalPlayerActivity]
+2025-07-30 11:12:06.649 27232-27287 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  mWNT: t = android.view.SurfaceControl$Transaction@16adc69 fN = 1 android.view.SurfaceView.applyOrMergeTransaction:1628 android.view.SurfaceView.access$500:124 android.view.SurfaceView$SurfaceViewPositionUpdateListener.positionChanged:1728 
+2025-07-30 11:12:06.649 27232-27287 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  mWNT: merge t to BBQ
+2025-07-30 11:12:06.649 27232-27287 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+2025-07-30 11:12:06.655 27232-27256 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+2025-07-30 11:12:06.655 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:5000 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938 
+2025-07-30 11:12:06.655 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  [DP] rdf()
+2025-07-30 11:12:06.655 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     D  reportDrawFinished (fn: -1) 
+2025-07-30 11:12:06.670 27232-27232 ViewRootIm...rActivity] com.google.sample.cast.refplayer     I  MSG_WINDOW_FOCUS_CHANGED 1 1
+2025-07-30 11:12:06.673 27232-27232 InputMethodManager      com.google.sample.cast.refplayer     D  startInputInner - Id : 0
+2025-07-30 11:12:06.673 27232-27232 InputMethodManager      com.google.sample.cast.refplayer     I  startInputInner - mService.startInputOrWindowGainedFocus
+2025-07-30 11:12:06.953 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlPosition: Point(0, 2154) for ITYPE_NAVIGATION_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity from android.view.InsetsSourceConsumer.notifyAnimationFinished:384
+2025-07-30 11:12:06.954 27232-27232 InsetsSourceConsumer    com.google.sample.cast.refplayer     D  ensureControlPosition: Point(0, 0) for ITYPE_STATUS_BAR on com.google.sample.cast.refplayer/com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity from android.view.InsetsSourceConsumer.notifyAnimationFinished:384
+2025-07-30 11:12:06.954 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  handleAppVisibility mAppVisible=true visible=false
+2025-07-30 11:12:06.983 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:06.984 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface() destroyed EGLSurface
+2025-07-30 11:12:06.984 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  destroyEglSurface
+2025-07-30 11:12:06.998 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  Relayout returned: old=(0,90,1080,2280) new=(0,90,1080,2280) req=(1080,2190)8 dur=9 res=0x5 s={false 0} ch=true fn=227
+2025-07-30 11:12:07.001 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  stopped(true) old=false
+2025-07-30 11:12:07.008 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  isMultiSplitHandlerRequested: windowingMode=1 isFullscreen=true isPopOver=false isHidden=false skipActivityType=false isHandlerType=true this: DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:07.008 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:07.017 27232-27232 MSHandlerLifeCycle      com.google.sample.cast.refplayer     I  removeMultiSplitHandler: no exist. decor=DecorView@5710ac8[ExpandedControlsActivity]
+2025-07-30 11:12:07.018 27232-27256 OpenGLRenderer          com.google.sample.cast.refplayer     D  setSurface called with nullptr
+2025-07-30 11:12:07.018 27232-27232 ViewRootIm...sActivity] com.google.sample.cast.refplayer     I  dispatchDetachedFromWindow
+2025-07-30 11:12:07.029 27232-27232 InputTransport          com.google.sample.cast.refplayer     D  Input channel destroyed: 'f2898ff', fd=125
+2025-07-30 11:12:11.448   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:11.449   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:11.457   541-548   statsd                  statsd                               E  Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
+2025-07-30 11:12:11.457   541-548   statsd                  statsd                               E  Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->11973[I] (10)0x30000->CastDeviceController-com.google.sample.cast.refplayer[S] 
